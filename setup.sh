@@ -43,4 +43,4 @@ python manage.py loaddata navbar
 python manage.py loaddata language_small
 python manage.py loaddata demo
 
-echo "Done, run [. ../dmojsite/bin/activate] to activate your virtualenv and [python manage.py runserver] to run your server"
+echo "Done, run [. dmojsite/bin/activate] to activate your virtualenv, [cd site], and [python manage.py runserver] to run your server"
