@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm README.md
+
 sudo apt-get update
 sudo apt install --assume-yes git gcc g++ make python3-dev libxml2-dev libxslt1-dev zlib1g-dev gettext curl
 sudo apt install --assume-yes python3-pip
@@ -24,7 +26,7 @@ git submodule update
 pip3 install -r requirements.txt
 pip3 install mysqlclient
 
-mv ../local_settings.py dmoj/
+mv ../DmojSetup/local_settings.py dmoj/
 
 python3 manage.py check
 
