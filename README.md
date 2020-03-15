@@ -7,15 +7,15 @@ To setup Dmoj, run the following.
 
 ```bash
 $ git clone https://github.com/JoshuaTianYangLiu/DmojSetup
-$ chmod +x setup.sh
-$ ./setup.sh
+$ chmod +x DmojSetup/setup.sh
+$ DmojSetup/./setup.sh
 ```
 
 For those who are too lazy to copy one by one
 ```bash
 git clone https://github.com/JoshuaTianYangLiu/DmojSetup
-chmod +x setup.sh
-./setup.sh
+chmod +x DmojSetup/setup.sh
+DmojSetup/./setup.sh
 ```
 
 
